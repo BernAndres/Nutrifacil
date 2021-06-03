@@ -1,0 +1,24 @@
+.titulo15{
+    width: 60%;
+    display: block;
+    margin: 40px auto 5px auto;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .titulo15{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo15{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .titulo15{
+        width: 90%;
+    }
+}

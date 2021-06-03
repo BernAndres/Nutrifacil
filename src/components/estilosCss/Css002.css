@@ -1,0 +1,234 @@
+.bar02 {
+    background-color: #2d3436;
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    align-items: center;
+    position: relative;
+}
+.button1InA02 {
+    background-color: #2d3436;
+    position: absolute;
+    right: 20%;
+    border: none;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    padding: 0px 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.button1A02 {
+    background-color: #BFFFB5;
+    position: absolute;
+    right: 20%;
+    border: none;
+    border-bottom: 3px solid #2d3436;
+    border-top: 3px solid #2d3436;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #2d3436;
+} 
+.button2InA02 {
+    background-color: #2d3436;
+    position: absolute;
+    right: 5%;
+    border: none;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    padding: 0px 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.button2A02 {
+    background-color: #BFFFB5;
+    position: absolute;
+    right: 5%;
+    border: none;
+    border-bottom: 3px solid #2d3436;
+    border-top: 3px solid #2d3436;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+} 
+.linkInA02 {
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkA02 {
+    color: #2d3436;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginInA02 {
+    position: absolute;
+    top: -400px;
+    left: 35%;
+    transition: all 0.5s ease;
+    width: 30%;
+}
+.loginA02 {
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    transition: all 0.5s ease;
+    width: 30%;
+} 
+.volverInA02 {
+    border-radius: 5px;
+    padding: 2px 0px;
+    /* width: 110px; */
+    width: 10%;
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.volverA02 {
+    background-color: #ACEFA1;
+    border-radius: 5px;
+    padding: 2px 0px;
+    width: 10%;
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.textVolver02 {
+    margin-left: 5px;
+}
+@media screen and (max-width: 992px) {
+    .button1InA02{
+        right: 25%;
+        width: 20%;
+    }
+    .button1A02{
+        right: 25%;
+        width: 20%;
+    }
+    .button2InA02{
+        right: 5%;
+        width: 20%;
+    }
+    .button2A02{
+        right: 5%;
+        width: 20%;
+    }
+    .volverInA02 {
+        width: 13%;
+    }
+    .volverA02 {
+        width: 13%;
+    }
+    .loginInA02 {
+        left: 30%;
+        width: 40%;
+    }
+    .loginA02 {
+        left: 30%;
+        width: 40%;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .button1InA02{
+        right: 30%;
+        width: 25%;
+    }
+    .button1A02{
+        right: 30%;
+        width: 25%;
+    }
+    .button2InA02{
+        right: 5%;
+        width: 25%;
+    }
+    .button2A02{
+        right: 5%;
+        width: 25%;
+    }
+    .volverInA02 {
+        width: 16%;
+    }
+    .volverA02 {
+        width: 16%;
+    }
+    .loginInA02 {
+        left: 25%;
+        width: 50%;
+    }
+    .loginA02 {
+        left: 25%;
+        width: 50%;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .button1InA02{
+        right: 49%;
+        width: 43%;
+    }
+    .button1A02{
+        right: 49%;
+        width: 43%;
+    }
+    .button2InA02{
+        right: 6%;
+        width: 43%;
+    }
+    .button2A02{
+        right: 6%;
+        width: 43%;
+    }
+    .volverInA02{
+        width: 8%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .volverA02{
+        width: 8%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .textVolver02 {
+        display: none;
+    }
+    .loginInA02 {
+        left: 10%;
+        width: 80%;
+    }
+    .loginA02 {
+        left: 10%;
+        width: 80%;
+    } 
+}

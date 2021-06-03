@@ -1,0 +1,144 @@
+
+.container16 {
+    position: fixed;
+    top: 180px;
+    right: 0px;
+}
+/* BOTON MIS TAREAS */
+.boxBtnActive1-16{
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    transition: all 0.5s ease;
+}
+.boxBtnInactive1-16 {
+    display: none;
+}
+.texto1-16 {
+    display: block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+} 
+.btnActivo1-16 {
+    color: #8CFF79;
+    margin-right: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 60px;
+} 
+.btnInactivo1-16 {
+    color: #ACEFA1;
+    margin-right: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 60px; 
+}
+/* BOTON MIS DATOS */
+.boxBtnActive2-16 {
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s ease;
+}
+.boxBtnInactive2-16 {
+    display: none;
+}
+.texto2-16 {
+    display: block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btnActivo2-16 {
+    color: #8CFF79;
+    margin-right: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 60px;
+} 
+.btnInactivo2-16 {
+    color: #ACEFA1;
+    margin-right: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+    font-size: 60px; 
+}
+
+@media screen and (max-width: 992px) {
+    .container16 {
+        position: fixed;
+        /* background-color: blue; */
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        right: 0px;
+    }
+    /* BOTON MIS DATOS */
+    .boxBtnActive1-16{
+        /* background-color: blueviolet; */
+        /* flex-direction: column; */
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        transition: all 0.5s ease;
+    }
+    .boxBtnInactive1-16 {
+        display: none;
+    }
+    .texto1-16 {
+        display: none;
+    } 
+    .btnActivo1-16 {
+        /* background-color: chocolate; */
+        color: #8CFF79;
+        margin-right: 0px;
+        margin-top: 0px;
+        cursor: pointer;
+        font-size: 30px;
+    } 
+    .btnInactivo1-16 {
+        color: #ACEFA1;
+        margin-right: 0px;
+        margin-top: 0px;
+        cursor: pointer;
+        font-size: 30px; 
+    }
+
+    /* BOTON TAREAS */
+    .boxBtnActive2-16 {
+        /* background-color: chartreuse; */
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        left: 55px;
+        transition: all 0.5s ease;
+    }
+    .boxBtnInactive2-16 {
+        display: none;
+    }
+    .texto2-16 {
+        display: none;
+    }
+    .btnActivo2-16 {
+        color: #8CFF79;
+        margin-right: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+        font-size: 30px;
+    } 
+    .btnInactivo2-16 {
+        color: #ACEFA1;
+        margin-right: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+        font-size: 30px; 
+    }
+    
+}

@@ -1,0 +1,39 @@
+.grid12 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 992px){
+    .grid12 {
+        grid-template-columns: 3fr 3fr;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid12 {
+        grid-template-columns: 3fr 3fr;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .grid12 {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+    }
+}
+/* ----------------PAGINAS PLIEGUES Y PERIMETROS MEDICIONES------------------- */
+.containerParrafo12{
+    width: 70%;
+    display: block;
+    margin: 0px auto 20px auto;
+    padding: 0 0 0 20px;
+}
+@media screen and (max-width: 600px){
+    .containerParrafo12{
+        padding: 0 0 0 0px;
+    }
+}

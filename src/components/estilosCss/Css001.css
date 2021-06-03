@@ -1,0 +1,190 @@
+.bar01 {
+    background-color: #2d3436;
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    align-items: center;
+    position: relative;
+}
+.button1InA01 {
+    background-color: #2d3436;
+    position: absolute;
+    right: 20%;
+    border: none;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    padding: 0px 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.button1A01 {
+    background-color: #BFFFB5;
+    position: absolute;
+    right: 20%;
+    border: none;
+    border-bottom: 3px solid #2d3436;
+    border-top: 3px solid #2d3436;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #2d3436;
+} 
+.button2InA01 {
+    background-color: #2d3436;
+    position: absolute;
+    right: 5%;
+    border: none;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    padding: 0px 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.button2A01 {
+    background-color: #BFFFB5;
+    position: absolute;
+    right: 5%;
+    border: none;
+    border-bottom: 3px solid #2d3436;
+    border-top: 3px solid #2d3436;
+    height: 60px;
+    width: 15%;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 22px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+} 
+.linkInA01 {
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkA01 {
+    color: #2d3436;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .cerrar {
+    position: relative;
+    top: 20px;
+} */
+.loginInA01 {
+    position: absolute;
+    top: -400px;
+    left: 35%;
+    transition: all 0.5s ease;
+    width: 30%;
+}
+.loginA01 {
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    transition: all 0.5s ease;
+    width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+    .button1InA01{
+        right: 25%;
+        width: 20%;
+    }
+    .button1A01{
+        right: 25%;
+        width: 20%;
+    }
+    .button2InA01{
+        right: 5%;
+        width: 20%;
+    }
+    .button2A01{
+        right: 5%;
+        width: 20%;
+    }
+    .loginInA01 {
+        left: 30%;
+        width: 40%;
+    }
+    .loginA01 {
+        left: 30%;
+        width: 40%;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .button1InA01{
+        right: 30%;
+        width: 25%;
+    }
+    .button1A01{
+        right: 30%;
+        width: 25%;
+    }
+    .button2InA01{
+        right: 5%;
+        width: 25%;
+    }
+    .button2A01{
+        right: 5%;
+        width: 25%;
+    }
+    .loginInA01 {
+        left: 25%;
+        width: 50%;
+    }
+    .loginA01 {
+        left: 25%;
+        width: 50%;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .button1InA01{
+        right: 50%;
+        width: 45%;
+    }
+    .button1A01{
+        right: 50%;
+        width: 45%;
+    }
+    .button2InA01{
+        right: 5%;
+        width: 45%;
+    }
+    .button2A01{
+        right: 5%;
+        width: 45%;
+    }
+    .loginInA01 {
+        left: 10%;
+        width: 80%;
+    }
+    .loginA01 {
+        left: 10%;
+        width: 80%;
+    } 
+
+}

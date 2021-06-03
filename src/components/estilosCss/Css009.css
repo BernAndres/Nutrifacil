@@ -1,0 +1,26 @@
+.titulo09 {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 30px auto 0px auto;
+    padding: 0px 0px;
+}
+
+@media screen and (max-width: 992px){
+    .titulo09 {
+        width: 80%;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .titulo09 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .titulo09 {
+        text-align: center;
+    }
+}

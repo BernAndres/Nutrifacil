@@ -1,0 +1,195 @@
+.mensaje1-17{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 4px;
+    font-size: 12px;
+    max-width: 300px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f6fa;
+}
+.mensaje2-17{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 4px;
+    margin-right: 20px;
+    font-size: 12px;
+    max-width: 450px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f6fa;
+}
+.mensaje3-17{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 4px;
+    font-size: 12px;
+    width: 250px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f6fa;
+}
+.mensaje4-17{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 4px;
+    margin-right: 20px;
+    font-size: 12px;
+    max-width: 400px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f6fa;
+}
+.mensaje23-17{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 4px;
+    font-size: 12px;
+    width: 300px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f6fa;
+}
+.mensaje26-17{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 4px;
+    font-size: 12px;
+    width: 450px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f6fa;
+}
+.grid26-17{
+    display: grid;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 992px){
+    .mensaje1-17{
+        display: inline;
+        position: absolute;
+        padding: 6px;
+        font-size: 12px;
+        /* max-width: 220px; */
+        width: 300px;
+        margin-left: -330px;
+    }
+    .mensaje3-17{
+        margin-left: 4px;
+        width: 180px;
+    }
+}
+@media screen and (max-width: 880px){
+    .mensaje3-17{
+        margin-left: 4px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 768px){
+    .mensaje1-17{
+        width: 300px;
+        margin-left: -330px;
+    }
+    .mensaje3-17{
+        width: 200px;
+        margin-left: -160px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .mensaje1-17{
+        width: 280px;
+        margin-left: -310px;
+    }
+    .mensaje3-17{
+        width: 250px;
+        margin-left: -180px;
+        margin-top: 30px;
+    }
+    .mensaje26-17{
+        padding: 10px;
+        margin-left: 4px;
+        font-size: 12px;
+        width: 400px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .mensaje23-17{
+        display: inline;
+        position: absolute;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 4px;
+        font-size: 12px;
+        width: 200px;
+        text-align: justify;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        background-color: #f5f6fa;
+    }
+    .grid26-17{
+        grid-template-rows: 40px 20px 20px 40px 20px 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 550px){
+    .mensaje1-17{
+        width: 280px;
+        margin-left: -310px;
+    }
+}
+@media screen and (max-width: 500px){
+    .mensaje1-17{
+        width: 270px;
+        margin-left: -300px;
+    }
+}
+@media screen and (max-width: 450px){
+    .mensaje1-17{
+        width: 240px;
+        margin-left: -270px;
+    }
+    .mensaje26-17{
+        padding: 10px;
+        margin-left: 4px;
+        font-size: 12px;
+        width: 350px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .grid26-17{
+        grid-template-rows: 40px 20px 20px 40px 20px 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 395px){
+    .mensaje1-17{
+        width: 220px;
+        margin-left: -247px;
+    }
+    .mensaje26-17{
+        padding: 10px;
+        margin-left: 4px;
+        font-size: 12px;
+        width: 300px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .grid26-17{
+        grid-template-rows: 40px 20px 20px 40px 20px 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

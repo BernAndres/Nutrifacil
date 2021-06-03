@@ -1,0 +1,26 @@
+.container {
+    width: 60%;
+    background-color: #f1f2f6;
+    height: auto;
+    display: block;
+    margin: 0px auto 40px auto;
+    padding: 25px 0px;
+    border-radius: 4px;
+}
+@media screen and (max-width: 992px) {
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
+}

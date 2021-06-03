@@ -1,0 +1,27 @@
+.btnInA14 {
+    width: 50%;
+    min-height: 30px;
+    background-color: #ACEFA1;
+    border-radius: 4px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.btnA14 {
+    width: 50%;
+    min-height: 30px;
+    background-color: #A3F396;
+    border-radius: 4px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    .btnInA14 {
+        width: 80%;
+    }
+    .btnA14 {
+        width: 80%;
+    }
+    
+}

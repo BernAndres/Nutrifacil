@@ -1,0 +1,53 @@
+.gridContainer08 {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 80%;
+    border-radius: 4px;
+}
+.box08{
+    width: 60%;
+    background-color: #f1f2f6;
+    height: auto;
+    display: block;
+    margin: 0px auto 40px auto;
+    padding: 25px 0px;
+    border-radius: 4px;
+}
+.gridGrupo08 {
+    padding: 0px 0px 0px 15px;
+    font-size: 14px;
+}
+.gridPorcion08 {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .box08{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box08{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gridContainer08 {
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 90%;
+        border-radius: 4px;
+    }
+    .box08{
+        width: 90%;
+    }
+    .gridGrupo08 {
+        font-size: 13px;
+    }
+    .gridPorcion08 {
+        font-size: 13px;
+    }
+}
