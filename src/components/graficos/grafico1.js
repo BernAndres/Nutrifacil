@@ -1,6 +1,5 @@
 import React from 'react';
 import {Bar, Pie, Line} from 'react-chartjs-2';
-// import {dataComp1} from '../../datosUsuarios';
 import firebase from "firebase/app"
 import "firebase/auth"
 import "firebase/firestore"
@@ -13,6 +12,7 @@ const BarChart = () => {
                     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
                     datasets: [{
                         label: '# of Votes',
+                        // datos del gráfico
                         data: [9, 15, 6, 5, 7, 8],
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',

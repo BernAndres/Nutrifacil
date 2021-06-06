@@ -1,20 +1,10 @@
-import {dataSaludarNombre} from '../datosUsuarios';
+import {dataSaludarUser} from '../datosNombre';
 import './estilosCss/Css009.css';
 
-const style={
-    titulo:{
-        width: '60%',
-        height: 'auto',
-        display: 'block',
-        margin: '30px auto 0px auto',
-        padding: '0px 0px 0px 0px',
-    }
-}
-
-export default function nombreUser() {
+export default function saludarUser() {
         return (        
-            <div> 
-                <h1 className='titulo09' id="saludar" {...dataSaludarNombre()}></h1>
+            <div id="nombre001"> 
+                <h1 className='titulo09' id="idSaludarUser" {...dataSaludarUser()}></h1>
             </div>
   )
 };

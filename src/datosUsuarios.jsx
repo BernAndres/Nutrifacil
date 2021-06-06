@@ -3,29 +3,34 @@ import "firebase/auth"
 import "firebase/firestore"
 
 //DATA SALUDAR NOMBRE
-export const dataSaludarNombre = async function() {
+// export const dataSaludarNombre = async function() {
 
     //Usando await/async vamos a esperar a que cargue el usuario antes de seguir con el código
-    let {currentUser : user} = await firebase.auth();
+  //   let {currentUser : user} = await firebase.auth();
     
-    if (user != null) {
-      var uid = user.uid;
-    }
+  //   if (user != null) {
+  //     var uid = user.uid;
+  //   }
     
-    const db = firebase.firestore();
+  //   const db = firebase.firestore();
   
-    //Aquí tambien esperamos a tener un resultado
-    var docRef = await db.collection("infoUsuarios").doc(uid)
+  //   //Aquí tambien esperamos a tener un resultado
+  //   var docRef = await db.collection("infoUsuarios").doc(uid)
     
-    docRef.onSnapshot(function(doc) {
-      const saludar = document.getElementById("saludar");
-      if (doc && doc.exists) {
-        saludar.innerText = "¡"+doc.data().Saludar + " " + doc.data().Nombre+"!";
-      }
-    }
-    );
-  }
-  // DATA NOMBRE
+  //   docRef.onSnapshot(function(doc) {
+  //     const saludar = document.getElementById("saludar");
+  //     if (doc && doc.exists  && !(doc.data().Saludar==null||doc.data().Saludar==0)) {
+  //       saludar.innerText = "¡"+doc.data().Saludar + " " + doc.data().Nombre+"!";
+  //     }else{
+  //     setTimeout(()=>{
+  //       document.getElementById("nombre00l").style.display = "none";
+  //     },100);  
+  //     }
+  //   }
+  //   );
+  // }
+
+  //DATA NOMBRE
   export const dataNombre = async function() {
     let {currentUser : user} = await firebase.auth();
     if (user != null) {
